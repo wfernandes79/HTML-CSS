@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Wackypixel-Lesters-Electric-Guitar-BlackBeauty-Guitar.ico" type="image/x-icon">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinámica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagen-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagen-m.png" type="image/png">
+        <img src="imagens/imagen-g.png" alt="Imagen flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML</p>
+    <audio src="midia/guilherme-e-benuto-eclaração-pro-bar.mp3" controls autoplay></audio>
+    
+    <h2>Outra maneira de reproduzir áudio</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guilherme-e-benuto-eclaração-pro-bar.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Reproduzindo Vídeo</h1>
+</body>
+</html>
