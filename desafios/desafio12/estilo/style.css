@@ -70,6 +70,7 @@ section.normal{
 }
 
 section.imagem{
+
     background-color: rgb(46, 46, 46);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
@@ -84,8 +85,8 @@ section.imagem > p{
     text-shadow: 1px 1px 0px black;
 }
 section#img1{
-    background-image: url('../imagens/background001.jpg');
-    background-position: right right;
+    background-image: url('../imagens/background003.jpg');
+    background-position: center right;
     
 
 }
