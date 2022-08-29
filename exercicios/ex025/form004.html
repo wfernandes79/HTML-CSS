@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário Telefone e email</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome" size="40" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel"  placeholder="(xx)xxxxx-xxxx" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required size="40" placeholder="email">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label for="iend">Av/Rua:</label>
+                <input type="text" name="end" id="iend" required placeholder="Endereço" size="40">
+            
+            </p>
+            <p>
+                <label for="icep">CEP:</label>
+                <input type="number" name="cep" id="icep" required placeholder="xx.xxx-xxx" pattern="^\d{2}.\d{3}-\d{3}$">
+            </p>
+            <p>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="bairro" required placeholder="Bairro">
+            </p>
+            <p>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" required placeholder="Cidade">
+            </p>
+
+        </fieldset>
+        
+    </form>
+</body>
+</html>
