@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* Todas as Medias 
+
+Typical Device Breakpoints
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px */
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -20,7 +30,7 @@ h1{
     padding: 10px;
 }
 
-span#menu{
+span#imenu{
     background-color: rgb(48, 48, 48);
     display: block;
     color: white;
@@ -29,7 +39,7 @@ span#menu{
     cursor: pointer;
 
 }
-span#menu:hover{
+span#imenu:hover{
     background-color: white;
     color: black;
 }
@@ -54,7 +64,7 @@ menu a{
 }
 
 main{
-    width: 90%;
+    width: 80%;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
